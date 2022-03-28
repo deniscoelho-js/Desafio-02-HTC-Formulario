@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  --primary: #3f3d56;
+  --gray2: #323730;
+  --gray4: #abb3a8;
+  --base: #3f3f40;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 396px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  font-weight: 700;
+  margin-top: 68px;
+  color: var(--primary);
+}
+
+.name-field {
+  font-weight: 400;
+  margin-top: 22px;
+  color: var(--gray2);
+}
+
+.name-field input {
+  height: 47px;
+  margin-top: 4px;
+  border: 1px solid #abb3a8;
+  color: var(--gray4);
+  outline: none;
+  padding-left: 14px;
+}
+
+.date-country {
+  display: flex;
+  max-width: 396px;
+  margin-top: 24px;
+  color: var(--base);
+}
+
+.red {
+  color: red;
+}
+
+.space-9px {
+  margin-top: 9px;
+}
+
+.date-country input {
+  height: 47px;
+  width: 170px;
+  padding-left: 14px;
+  border: 1px solid #abb3a8;
+  outline: none;
+  color: var(--gray4);
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+}
+
+.date-country select {
+  height: 47px;
+  width: 208px;
+  padding-left: 14px;
+  border: 1px solid #abb3a8;
+  outline: none;
+  color: var(--gray4);
+  background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+  background-repeat: no-repeat;
+  background-position-y: 50%;
+  background-position-x: 100%;
+  -webkit-appearance: none;
+}
+
+.genre {
+  margin-top: 22px;
+  font-weight: 400;
+  color: var(--gray2);
+  max-width: 396px;
+}
+
+.genre .radios {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 9px;
+  color: var(--gray2);
+}
+
+.email-field {
+  margin-top: 23px;
+  color: var(--gray2);
+}
+
+.email-field input {
+  margin-top: 4px;
+  outline: none;
+  height: 47px;
+  padding-left: 14px;
+  border: 1px solid #abb3a8;
+  color: var(--gray4);
+}
+
+.space-22px {
+  margin-top: 22px;
+}
+
+.terms {
+  margin-top: 28px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.terms input {
+  border: 1px solid red;
+  width: 18px;
+  height: 18px;
+  outline: none;
+  cursor: pointer;
+  outline: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.terms p {
+  margin-left: 10px;
+  width: 368px;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.terms a {
+  color: #1db9e0;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  margin-top: 28px;
+}
+
+.button button {
+  width: 396px;
+  height: 47px;
+  border: none;
+  cursor: pointer;
+  background-color: var(--primary);
+  color: white;
+  font-size: 16px;
+}
+
+.enter-now {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 28px;
+  margin-bottom: 174px;
+  font-size: 14px;
+}
+
+.enter-now a {
+  color: #1db9e0;
+  text-decoration: none;
+}

@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  --primary: #3f3d56;
+  --gray2: #323730;
+  --gray4: #abb3a8;
+  --base: #3f3f40;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 515px;
+}
+
+.header {
+  margin-top: 68px;
+  font-weight: 700;
+  color: var(--primary);
+  /* font-size: 37px; */
+  font-style: normal;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.email {
+  margin-top: 31px;
+  color: var(--gray2);
+}
+
+.email input {
+  width: 515px;
+  height: 47px;
+  margin-top: 6px;
+  padding-left: 17px;
+  outline: none;
+  border: 1px solid var(--gray4);
+}
+
+.password {
+  margin-top: 39px;
+  color: var(--gray2);
+}
+
+.password input {
+  width: 515px;
+  height: 47px;
+  margin-top: 6px;
+  padding-left: 17px;
+  outline: none;
+  border: 1px solid var(--gray4);
+}
+
+/* classe responsável por deixar o check e o <p> na mesma linha */
+.flex {
+  display: flex;
+}
+
+.check {
+  margin-top: 27px;
+  color: var(--gray2);
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.check p {
+  margin-left: 8px;
+}
+
+.check input {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.check a {
+  text-decoration: none;
+  color: #1db9e0;
+}
+
+.button {
+  margin-top: 31px;
+}
+
+.button button {
+  width: 514px;
+  height: 47px;
+  cursor: pointer;
+  border: none;
+  background-color: var(--primary);
+  color: white;
+  font-size: 16px;
+}
+
+.dont-count {
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.dont-count a {
+  text-decoration: none;
+  color: #1db9e0;
+}
