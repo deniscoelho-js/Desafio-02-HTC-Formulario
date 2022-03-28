@@ -47,7 +47,7 @@
   height: 47px;
   margin-top: 4px;
   border: 1px solid #abb3a8;
-  color: var(--gray4);
+  /* color: var(--gray4); */
   outline: none;
   padding-left: 14px;
 }
@@ -73,7 +73,7 @@
   padding-left: 14px;
   border: 1px solid #abb3a8;
   outline: none;
-  color: var(--gray4);
+  /* color: var(--gray4); */
 }
 
 input[type="date"]::-webkit-inner-spin-button,
@@ -88,7 +88,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   padding-left: 14px;
   border: 1px solid #abb3a8;
   outline: none;
-  color: var(--gray4);
+  /* color: var(--gray4); */
   background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
   background-repeat: no-repeat;
   background-position-y: 50%;
@@ -99,7 +99,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .genre {
   margin-top: 22px;
   font-weight: 400;
-  color: var(--gray2);
+  /* color: var(--gray2); */
   max-width: 396px;
 }
 
@@ -107,12 +107,12 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   display: flex;
   justify-content: space-between;
   margin-top: 9px;
-  color: var(--gray2);
+  /* color: var(--gray2); */
 }
 
 .email-field {
   margin-top: 23px;
-  color: var(--gray2);
+  /* color: var(--gray2); */
 }
 
 .email-field input {
@@ -121,7 +121,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   height: 47px;
   padding-left: 14px;
   border: 1px solid #abb3a8;
-  color: var(--gray4);
+  /* color: var(--gray4); */
 }
 
 .space-22px {
