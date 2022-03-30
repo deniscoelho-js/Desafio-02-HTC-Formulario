@@ -12,7 +12,7 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="css/login.css" />
+    <link rel="stylesheet" href="css/style.css" />
 
     <title>Login</title>
   </head>
@@ -24,39 +24,38 @@
         </div>
         <div class="form">
           <form>
-            <div class="email column">
-              <label for="email">E-mail</label>
-              <input
-                type="email"
-                name="email"
-                id="email"
-                placeholder="Digite seu e-mail"
-              />
-            </div>
-            <div class="password column">
-              <label for="password">Senha</label>
-              <input
-                type="password"
-                id="password"
-                placeholder="Crie uma senha"
-              />
-            </div>
-            <div class="check">
-              <div class="flex">
-                <input type="checkbox" name="" id="conect" />
-                <p for="conect">Mantenha-me conectado</p>
+            <div class="email-field">
+              <div class="column">
+                <label for="email">E-mail</label>
+                <input
+                  type="email"
+                  placeholder="Digite seu e-mail"
+                  id="email"
+                />
               </div>
-              <div>
+              <div class="column space-22px">
+                <label for="password">Senha</label>
+                <input
+                  type="password"
+                  placeholder="Crie uma senha"
+                  id="password"
+                />
+              </div>
+            </div>
+            <div class="terms">
+              <input type="checkbox" name="" id="" />
+              <p>
+                Mantenha-me conectado
                 <a target="_blank" href="senha.html">Esqueci minha senha</a>
-              </div>
+              </p>
             </div>
             <div class="button">
-              <button>Entrar</button>
+              <button>Cadastrar</button>
             </div>
-            <div class="dont-count">
+            <div class="enter-now">
               <p>
-                Ainda não tem uma conta?
-                <a href="index.html"> Cadastre-se</a>
+                Ainda não tem conta?
+                <a href="index.html">Cadastre-se</a>
               </p>
             </div>
           </form>
