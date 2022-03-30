@@ -12,31 +12,44 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="css/password.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Recupere sua senha</title>
     <section class="container">
       <div class="content">
-        <h1 class="header">Recupere sua senha</h1>
-      </div>
-      <div class="text">
-        Fique tranquilo! Nós te enviaremos um link de recuperação em seu e-mail.
-      </div>
-      <form>
+        <div class="header">
+          <h1>Recupere sua senha</h1>
+        </div>
         <div class="form">
-          <label for="email">E-mail</label>
-          <input
-            type="email"
-            name="email"
-            id="email"
-            placeholder="Digite seu e-mail"
-          />
+          <form>
+            <div class="terms container">
+              
+              <p>
+                Fique tranquilo! Nós te enviaremos um link
+                de recuperação em seu e-mail.
+              </p>
+            </div>
+            <div class="email-field">
+              <div class="column">
+                <label for="email">E-mail</label>
+                <input
+                  type="email"
+                  placeholder="Digite seu e-mail"
+                  id="email"
+                />
+              </div>
+
+            
+            <div class="button">
+              <button>Enviar link de recuperação</button>
+            </div>
+            <div class="enter-now">
+              <p>
+                
+                <a href="login.html">Voltar para a página de Login</a>
+              </p>
+            </div>
+          </form>
         </div>
-        <div class="button">
-          <button>Enviar link de recuperação</button>
-        </div>
-      </form>
-      <div class="back">
-        <p><a href="login.html">Voltar para a página de Login</a></p>
       </div>
     </section>
   </head>
